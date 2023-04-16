@@ -26,7 +26,7 @@ ProductTag.init(
   }
 );
 
-ProductTag.belongsTo(Product, { foreignKey: "product_id" });
-ProductTag.belongsTo(Tag, { foreignKey: "tag_id" });
+// ProductTag.belongsTo(Product, { foreignKey: "product_id" });
+// ProductTag.belongsTo(Tag, { foreignKey: "tag_id" });
 
 module.exports = ProductTag;
